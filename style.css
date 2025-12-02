@@ -1,13 +1,13 @@
 body {
     margin: 0;
     font-family: Arial;
-    background-color:ghostwhite;
+    background-color: ghostwhite;
 }
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 16px;
+    padding: 28px;
 }
 
 .container h1 {
@@ -19,7 +19,6 @@ nav {
     background-color: black;
     display: flex;
     justify-content: center;  
-    padding: 10px 0;
 }
 
 nav a {
@@ -36,10 +35,7 @@ nav a:hover {
 
 #main {
     display: flex;
-    gap: 16px;
     justify-content: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .box {
@@ -52,7 +48,6 @@ nav a:hover {
 
 .box.main {
     flex: 2;
-    min-height: 250px;
     font-size: 30px;
 }
 
@@ -62,9 +57,8 @@ nav a:hover {
     align-items: center;
 }
 
-.container:last-of-type {
+.container.main {
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: 24px;
 }
